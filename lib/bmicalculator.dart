@@ -169,7 +169,7 @@ class _BmicalculatorState extends State<Bmicalculator> {
                     result == null
                         ? 'enter value'
                         : '${result?.toStringAsFixed(3)}',
-                    
+
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
                   )
                 ],
